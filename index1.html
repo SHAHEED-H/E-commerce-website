@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\logaster-2020-03-the-5th-logo.png" width="150PX">
+        <nav style="margin-top: -50px;margin-right: -600px;">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <nav style="margin-top: -40px;"></nav>
+            <button><a href="#">Cart (<span id="cart-count">0</span>)</a></button>
+        </div>
+
+        
+    </header>
+
+    <main>
+        <center>
+            <iframe width="760" height="315" src="https://www.youtube.com/embed/FzaS0V_FCrI?si=tjytK8YjBbDiosp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </center>
+        <section class="hero">
+            <h2>STEP INTO GREATNESS WITH ADIDAS</h2>
+            <p>Your one-stop shop for all your needs</p>
+        </section>
+
+        <section class="products">
+
+            <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\adidas-ae-1-low-mural-1.webp" alt="Product 1">
+                <p class="h2">SPORTS SHOE</p>
+                <p>₹2000</p>
+                <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+                
+            </div>
+
+             <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\adidas_375493_IA4846_20230614T101039_01.jpg" alt="Product 3">
+                <p class="h2">T-SHIRT</p>
+                <p>₹1000</p>
+                <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\61jwuyPutgL.jpg" alt="Product 3">
+                <p class="h2">SOCKS</p>
+                <p>₹700</p>
+                <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+            </div> 
+
+            <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\0e8dbc22ca5b93e9f7fe299ead5bd0da.jpg" alt="Product 4">
+                <p class="h2">SNICKERS</p>
+                <p>₹3000</p>
+                <button onclick="addToCart('Product 4', 49.99)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\61JDtsWAJvL.jpg" alt="Product 5">
+                <p class="h2">SLIDES</p>
+                <p>₹1500</p>
+                <button onclick="addToCart('Product 5', 29.99)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\1ee44e927cfbe5243fde30b9336d46a2.jpg" alt="Product 2">
+                <p class="h2">SNICKERS</p>
+                <p>₹2500</p>
+                <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\41Ue5SFj-zL.webp" alt="Product 6">
+                <p class="h2">WOMEN'S SPORTS FIT</p>
+                <p>₹2000</p>
+                <button onclick="addToCart('Product 6', 29.99)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\71H-KMqkraL.jpg" alt="Product 7">
+                <p class="h2">SLIDES</p>
+                <p>₹1000</p>
+                <button onclick="addToCart('Product 7', 29.99)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\8081680404bf05b01016710c934582b7.jpg" alt="Product 3">
+                <p class="h2">SNICKERS</p>
+                <p>₹4000</p>
+                <button onclick="addToCart('Product 3', 39.99)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\61g4eGV4LtL.jpg" alt="Product 8">
+                <p class="h2">SLIDES</p>
+                <p>₹1500</p>
+                <button onclick="addToCart('Product 8', 29.99)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\messi-club-ball.webp" alt="Product 9">
+                <p class="h2">SOCCER</p>
+                <p>₹3000</p>
+                <button onclick="addToCart('Product 9', 29.99)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\91cLg7K3JuL.webp" alt="Product 3">
+                <p class="h2">SOCKS THREE COMBO</p>
+                <p>₹1000</p>
+                <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+            </div>
+            
+            <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\8572061_fpx.webp" alt="Product 3">
+                <p class="h2">SHORTS</p>
+                <p>₹1000</p>
+                <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src=" C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\81yYJatM9aL.webp" alt="Product 3">
+                <p class="h2">SOCKS SIX COMBO</p>
+                <p>₹2000</p>
+                <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+            </div>
+        
+            <div class="product">
+                <img src="C:\Users\SHAHEED\Documents\ECOMMERCE\imgg\adidas-Crystal-Jade-Ultimate365-Sleeveless-Dress.webp" alt="Product 3">
+                <p class="h2">WOMEN'S FIT</p>
+                <p>₹2100</p>
+                <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+            </div>
+
+            
+         </section>
+    </main> 
+    
+        <div class="footer-basic">
+            <footer>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">HOME</a></li>
+                    <li class="list-inline-item"><a href="faq.html">FAQ</a></li>
+                    <li class="list-inline-item"><a href="about.html">ABOUT</a></li>
+                    <li class="list-inline-item"><a href="contact.html">CONTACT</a></li>
+                </ul>
+               <hr> <p class="copyright">Company Name © 2018</p>
+            </footer> 
+        </div>
+        
+    
+    <script src="script.js"></script>
+</body>
+</html> 
